@@ -24,7 +24,7 @@ input.onButtonPressed(Button.AB, function () {
     strip.clear()
 })
 let strip: neopixel.Strip = null
-strip = neopixel.create(DigitalPin.P0, 4, NeoPixelMode.RGB)
+strip = neopixel.create(DigitalPin.P15, 4, NeoPixelMode.RGB)
 basic.forever(function () {
     basic.showIcon(IconNames.Happy)
 })
